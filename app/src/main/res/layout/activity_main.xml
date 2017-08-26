@@ -20,7 +20,7 @@
             android:gravity="center">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/btnDir"
                 android:layout_width="@dimen/dimensoes_botoes"
                 android:layout_height="@dimen/dimensoes_botoes"
                 android:layout_gravity="center"
@@ -40,14 +40,14 @@
             android:layout_marginEnd="@dimen/margem_botoes">>
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btnFrente"
                 android:layout_width="@dimen/dimensoes_botoes"
                 android:layout_height="@dimen/dimensoes_botoes"
                 android:text="@string/botao_frente"
                 android:layout_marginBottom="@dimen/margem_botoes"/>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/btnRev"
                 android:layout_width="@dimen/dimensoes_botoes"
                 android:layout_height="@dimen/dimensoes_botoes"
                 android:text="@string/botao_re" />
@@ -63,7 +63,7 @@
             android:layout_marginEnd="@dimen/margem_botoes">
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/btnEsq"
                 android:layout_width="@dimen/dimensoes_botoes"
                 android:layout_height="@dimen/dimensoes_botoes"
                 android:layout_gravity="center"
