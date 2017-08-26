@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.ufjf.ieee.controlerobo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:gravity="right">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutEsq"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="@dimen/dimensoes_botoes"
+                android:layout_height="@dimen/dimensoes_botoes"
+                android:layout_gravity="center"
+                android:text="@string/botao_dir" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMeio"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/margem_botoes"
+            android:layout_marginStart="@dimen/margem_botoes"
+            android:layout_marginRight="@dimen/margem_botoes"
+            android:layout_marginEnd="@dimen/margem_botoes">>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="@dimen/dimensoes_botoes"
+                android:layout_height="@dimen/dimensoes_botoes"
+                android:text="@string/botao_frente"
+                android:layout_marginBottom="@dimen/margem_botoes"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="@dimen/dimensoes_botoes"
+                android:layout_height="@dimen/dimensoes_botoes"
+                android:text="@string/botao_re" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutDir"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/margem_botoes"
+            android:layout_marginEnd="@dimen/margem_botoes">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="@dimen/dimensoes_botoes"
+                android:layout_height="@dimen/dimensoes_botoes"
+                android:layout_gravity="center"
+                android:text="@string/botao_esq" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

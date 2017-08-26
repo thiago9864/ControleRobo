@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Controle Robo</string>
+    <string name="botao_esq">Esquerda</string>
+    <string name="botao_dir">Direita</string>
+    <string name="botao_frente">Frente</string>
+    <string name="botao_re">Reverso</string>
+</resources>
