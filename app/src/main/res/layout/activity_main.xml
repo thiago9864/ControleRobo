@@ -6,9 +6,49 @@
     android:layout_height="match_parent"
     tools:context="br.ufjf.ieee.controlerobo.MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <EditText
+        android:id="@+id/statusMessage"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/btnConectar"
+        android:layout_marginLeft="@dimen/margem_botoes"
+        android:layout_marginStart="@dimen/margem_botoes"
+        android:layout_marginRight="@dimen/margem_botoes"
+        android:layout_marginEnd="@dimen/margem_botoes"
+        android:layout_toStartOf="@+id/layoutBotoes"
+        android:layout_toLeftOf="@+id/layoutBotoes"
+        android:textColor="#ffffffff"
+        android:background="#ff000000"
+        android:inputType="none"
+        android:focusable="false"
+        android:cursorVisible="false"
+        android:gravity="top"
+        android:textSize="13sp"/>
+
+    <Button
+        android:id="@+id/btnConectar"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:text="@string/botao_conectar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/margem_botoes"
+        android:layout_marginStart="@dimen/margem_botoes"
+        android:layout_marginRight="@dimen/margem_botoes"
+        android:layout_marginEnd="@dimen/margem_botoes"
+        android:layout_toStartOf="@+id/layoutBotoes"
+        android:layout_toLeftOf="@+id/layoutBotoes"/>
+
+    <LinearLayout
+        android:id="@+id/layoutBotoes"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
         android:gravity="right">
 
@@ -37,7 +77,7 @@
             android:layout_marginLeft="@dimen/margem_botoes"
             android:layout_marginStart="@dimen/margem_botoes"
             android:layout_marginRight="@dimen/margem_botoes"
-            android:layout_marginEnd="@dimen/margem_botoes">>
+            android:layout_marginEnd="@dimen/margem_botoes">
 
             <Button
                 android:id="@+id/btnFrente"
